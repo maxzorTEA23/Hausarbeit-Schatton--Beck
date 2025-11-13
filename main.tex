@@ -2,6 +2,8 @@
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage[a4paper,left = 2.5cm, right = 2.5cm,bottom=2.5cm, top=2.5cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \renewcommand{\thefigure}{\thesection.\arabic{figure}}
@@ -24,7 +26,7 @@
 \usepackage{wrapfig}
 \usepackage{hyperref}
 \usepackage{ifthen}
-\usepackage{setspace}
+
 \usepackage[backend=biber,style=numeric,sorting=nyt]{biblatex}
 \DeclareNameAlias{default}{family-given}
 \addbibresource{Literatur.bib}
@@ -38,6 +40,15 @@
 \usepackage{ragged2e}
 \usepackage{listings}
 \usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning}    % Für node-Abstände wie [right=of ...]
+\usetikzlibrary{arrows.meta}    % Für moderne Pfeilspitzen (z. B. Latex)
+\usetikzlibrary{shapes.geometric} % Für runde Ecken / spezielle Boxen
+\usetikzlibrary{calc}           % Für präzise Koordinatenberechnung
+\usepackage{pgfplots}           % Falls du PGFPlots für Diagramme nutzt
+\pgfplotsset{compat=1.18}       % Für aktuelle Version & Fehlervermeidung
+\usepackage{float}              % Für [H]-Positionierung von Abbildungen
+
 \lstset{
 	basicstyle=\ttfamily\small,
 	keywordstyle=\color{blue},
@@ -129,8 +140,11 @@
 	\setcounter{page}{1}
 	\input{Kapitel/Einleitung.tex}
 	\input{Kapitel/Ausgangssituation.tex}
-	\input{Kapitel/Ziele_und_Nutzen(Benefits).tex}l
-	
+	\input{Kapitel/Ziele_und_Nutzen(Benefits).tex}
+	\input{Kapitel/Konzeptidee_ Lösungsansatz.tex}
+	\input{Kapitel/Systemarchitektur.tex}
+	\input{Kapitel/Wirtschaftlichkeit.tex}
+	\input{Kapitel/Stakeholder}
 	\newpage
 	\printbibliography
 \end{document}

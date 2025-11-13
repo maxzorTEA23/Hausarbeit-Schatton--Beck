@@ -1,0 +1,50 @@
+\section{Systemarchitektur}
+Die Systemarchitektur beschreibt den strukturellen Aufbau und die Vernetzung der beteiligten Komponenten.\\
+Es wird sichergestellt, dass sämtliche Bereiche - Robotik, SPS, Fördertechnik usw. - miteinander koordiniert agieren.\\
+Für das vorliegendes Konzept wurde eine Architektur entwickelt die auf einer zentralen Beckhoff- SPS basiert (so wie alle Anlagen in der Produktion bei Aumovio). Durch standardisierte Kommunikationsprotokolle ist eine hohe Kompatibilität, zwischen den einzelnen Herstellersystemen, gegeben.\\
+So können sowohl Echtzeitprozesse auf Feldebene, als auch Datentransfers auf der Prozessleitebene, zuverlässig umgesetzt werden.\\\\
+Im folgenden wird eine mögliche Integration in die aktuelle Produktionslinie (für das Bremssystem MKC2) erläutert.
+\subsection{Integration in die Produktionslinie}
+Die neue Verpackungsanlage wird am Ende der bestehenden Produktionslinie positioniert und übernimmt den Prozessschritt der automatisierten Verpackung der fertig montierten Bremssysteme. Dazu ist lediglich eine Anpassung der bestehenden Fördertechnik erforderlich, um den Materialfluss zwischen Produktionslinie und Verpackungsstation sicherzustellen.\\
+
+Die Integration in die vorhandene Steuerungsarchitektur erfolgt über die bestehende Beckhoff-SPS, die über EtherCAT und Profinet mit den relevanten Komponenten kommuniziert. Dabei werden die Förderbewegungen, die Werkstückpositionierung sowie die Roboteraktionen synchronisiert. Eine Kommunikation zwischen Robotersteuerung und SPS erfolgt über definierte Profinet-Signale, wodurch der Prozessablauf zuverlässig und reproduzierbar umgesetzt werden kann.\\
+
+Die Bedienung und Überwachung der Anlage erfolgt über ein PC-basiertes HMI-System, das auf einem Windows-Rechner ausgeführt wird. Dieses zentrale Interface visualisiert sowohl die Roboterfunktionen als auch den Zustand der Fördertechnik und ermöglicht eine einfache Prozessdiagnose und Störungsanalyse.\\
+
+Ein wesentlicher Vorteil des gewählten Aufbaus liegt in der modularen Erweiterbarkeit. Durch die standardisierte Kommunikation und das offene Steuerungskonzept kann die Anlage bei Produktänderungen oder zukünftigen Produktionsanpassungen flexibel erweitert werden. Somit ist die neue Verpackungseinheit nicht nur auf den aktuellen Anwendungsfall ausgelegt, sondern kann langfristig in das gesamte Produktionsnetz des Unternehmens integriert und bei Bedarf skaliert werden.
+\subsection{Anbindung an das Manufacturing Execution System (MES)}
+
+Um die Digitalisierung in der laufenden Produktion kontinuierlich aufrechtzuerhalten, 
+ist es sinnvoll, die automatisierte Verpackungsanlage in das bestehende 
+\textbf{MES (Manufacturing Execution System)} zu integrieren. 
+Das MES dient zur Überwachung laufender Prozessdaten und Produktionsanlagen und ermöglicht 
+darüber hinaus eine vollständige Rückverfolgbarkeit. 
+Die erfassten Daten werden für Auswertungen und Analysen genutzt und können beispielsweise 
+in den täglichen Team-Meetings diskutiert werden. Dadurch entsteht ein kontinuierlicher 
+Verbesserungsprozess, der sowohl die Produkt- als auch die Prozessqualität nachhaltig steigert.\\
+
+Durch die Anbindung der neuen Verpackungsanlage werden sämtliche prozessrelevanten Daten 
+zentrale im MES bereitgestellt. 
+Die standardisierte Beckhoff-SPS bietet, wie bereits aus anderen Anlagen bekannt, 
+die Möglichkeit, Messwerte, Zustände und Auswertungsprotokolle direkt an das MES zu übertragen. 
+Hierfür steht ein integrierter \textit{OPC~UA-Server} zur Verfügung, 
+der eine herstellerunabhängige Verbindung zwischen der Steuerungsebene und der IT-Ebene herstellt. 
+Über diese Schnittstelle werden Parameter wie Stückzahlen, Zykluszeiten, Anlagenzustände 
+oder Störmeldungen bereitgestellt und vom MES automatisiert ausgelesen sowie weiterverarbeitet.\\
+
+Durch die Anbindung an das MES ergeben sich folgende Vorteile:
+\begin{itemize}
+	\item Lückenlose Dokumentation des Verpackungsprozesses und erhöhte Rückverfolgbarkeit
+	\item Kontinuierliche Berechnung von Kennzahlen wie OEE\footnote{Overall Equipment Effectiveness – Kennzahl zur Bewertung der Gesamtanlageneffektivität.}
+	\item Frühzeitige Erkennung von Prozessabweichungen und Störungen
+\end{itemize}
+
+Diese Vorteile tragen zu einer stabileren Anlagenverfügbarkeit bei und machen 
+zusätzliche Optimierungspotenziale im laufenden Betrieb sichtbar. 
+Somit wird eine kontinuierliche Verbesserung des gesamten Produktionsprozesses unterstützt.\\
+
+Die Einbindung in das MES stellt insgesamt einen wesentlichen Schritt in Richtung 
+\textbf{Industrie~4.0} dar. 
+Durch die Kombination aus automatisiertem Verpackungsprozess und zentraler Datenerfassung 
+entsteht ein skalierbares System, das langfristig flexibel erweitert und an neue 
+Produktionsanforderungen angepasst werden kann.
