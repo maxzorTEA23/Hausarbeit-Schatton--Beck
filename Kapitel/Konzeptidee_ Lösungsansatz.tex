@@ -4,7 +4,7 @@ Das vorgestellte Grobkonzept verfolgt das Ziel, den aktuell manuellen Verpackung
 
 Die Verpackungsanlage besteht aus mehreren Hauptkomponenten:
 \begin{itemize}
-	\item \textbf{Industrieroboter:} Übernimmt das automatische Greifen, Positionieren und Ablegen der Bremssysteme in die Verpackungen. Der Roboter wird über eine SPS gesteuert und erhält über Profibus bzw. Profinet die Prozesssignale.
+	\item \textbf{Industrieroboter:} Übernimmt das automatische Greifen, Positionieren und Ablegen der Bremssysteme in die Verpackungen. Der Roboter wird über eine SPS gesteuert und erhält über Profibus bzw. Profinet die Prozesssignale\cite{ABB_Applications}.
 	\item \textbf{Fördertechnik:} Dient der Zuführung der fertigen Produkte und der Abführung der verpackten Einheiten. Diese ist mit Sensorik zur Teileerkennung und Stauüberwachung ausgestattet.
 	\item \textbf{Verpackungsstation:} Beinhaltet die Vorrichtungen zum Einlegen, Zufalten und Verschließen der Verpackung. Dieser Schritt kann mechanisch oder pneumatisch ausgeführt werden.
 	\item \textbf{Steuerung und Kommunikation:} Eine zentrale SPS (z. B. Siemens S7 oder Beckhoff) übernimmt die Ablaufsteuerung und kommuniziert mit der Robotersteuerung, der Fördertechnik sowie der übergeordneten Produktionsleittechnik.
@@ -127,9 +127,9 @@ Prozessschritte.
 	\label{fig:signalfluss}
 \end{figure}
 
-In der Grafik \ref{fig:signalfluss} sind die verschiedenen Schnittstellen und Kommunikationspfade der Anlage dargestellt. Die \textbf{SPS} bildet dabei das zentrale Element der Steuerungsarchitektur. Durch den Einsatz einer Beckhoff-Steuerung ist es möglich, einheitlich über das Hauptbussystem \textbf{EtherCAT} über alle Feldebenen\cite{bibid} hinweg zu kommunizieren. Dies vereinfacht nicht nur die Inbetriebnahme, sondern reduziert auch den Schulungsaufwand für das Fachpersonal.\\
+In der Grafik \ref{fig:signalfluss} sind die verschiedenen Schnittstellen und Kommunikationspfade der Anlage dargestellt. Die \textbf{SPS} bildet dabei das zentrale Element der Steuerungsarchitektur\cite{Anwendung_IEC61131}\cite{OPC_IEC61131}. Durch den Einsatz einer Beckhoff-Steuerung ist es möglich, einheitlich über das Hauptbussystem \textbf{EtherCAT} über alle Feldebenen\cite{Automatisierungspyramide} hinweg zu kommunizieren. Dies vereinfacht nicht nur die Inbetriebnahme, sondern reduziert auch den Schulungsaufwand für das Fachpersonal.\\
 
-Da alle Beckhoff-Komponenten nativ über EtherCAT angebunden werden können, entsteht eine durchgängige, echtzeitfähige Kommunikationsstruktur. Dadurch können Sensoren, Aktoren und Förderkomponenten effizient integriert und synchronisiert werden.\\
+Da alle Beckhoff-Komponenten nativ über EtherCAT angebunden werden können, entsteht eine durchgängige, echtzeitfähige Kommunikationsstruktur. Dadurch können Sensoren, Aktoren und Förderkomponenten effizient integriert und synchronisiert werden \cite{Beckhoff}.\\
 
 Der in der Anlage verwendete \textbf{ABB-Industrieroboter} unterstützt hingegen keine EtherCAT-Schnittstelle, weshalb die Kommunikation hier über \textbf{Profinet} realisiert wird. Die Verbindung zwischen Robotersteuerung und SPS erfolgt über definierte Signale, wodurch eine sichere und deterministische Prozessabfolge gewährleistet ist.\\
 
@@ -145,7 +145,7 @@ Im Folgenden ist die Einordnung des entwickelten Konzepts innerhalb der klassisc
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{images/Automatisierungspyramide}
-	\caption{Einordnung des Konzepts innerhalb der Automatisierungspyramide}
+	\caption{Einordnung des Konzepts innerhalb der Automatisierungspyramide \cite{Automatisierungspyramide}}
 	\label{fig:automatisierungspyramide}
 \end{figure}
 
