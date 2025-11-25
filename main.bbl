@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.2 $
+% $ biblatex bbl format version 3.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
-    \entry{ABB_Applications}{online}{}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{ABB_Applications}{online}{}{}
       \name{author}{1}{}{%
         {{hash=b4a3d540bc2d359cff962b0a957f8abd}{%
            family={{ABB Robotics}},
@@ -27,10 +27,12 @@
       }
       \strng{namehash}{b4a3d540bc2d359cff962b0a957f8abd}
       \strng{fullhash}{b4a3d540bc2d359cff962b0a957f8abd}
+      \strng{fullhashraw}{b4a3d540bc2d359cff962b0a957f8abd}
       \strng{bibnamehash}{b4a3d540bc2d359cff962b0a957f8abd}
       \strng{authorbibnamehash}{b4a3d540bc2d359cff962b0a957f8abd}
       \strng{authornamehash}{b4a3d540bc2d359cff962b0a957f8abd}
       \strng{authorfullhash}{b4a3d540bc2d359cff962b0a957f8abd}
+      \strng{authorfullhashraw}{b4a3d540bc2d359cff962b0a957f8abd}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
@@ -45,7 +47,7 @@
       \verb https://new.abb.com/products/robotics/applications
       \endverb
     \endentry
-    \entry{Automatisierungspyramide}{online}{}
+    \entry{Automatisierungspyramide}{online}{}{}
       \name{author}{1}{}{%
         {{hash=f88f4792f3c82e0f9deb2f4acc140e0f}{%
            family={Babel},
@@ -55,10 +57,12 @@
       }
       \strng{namehash}{f88f4792f3c82e0f9deb2f4acc140e0f}
       \strng{fullhash}{f88f4792f3c82e0f9deb2f4acc140e0f}
+      \strng{fullhashraw}{f88f4792f3c82e0f9deb2f4acc140e0f}
       \strng{bibnamehash}{f88f4792f3c82e0f9deb2f4acc140e0f}
       \strng{authorbibnamehash}{f88f4792f3c82e0f9deb2f4acc140e0f}
       \strng{authornamehash}{f88f4792f3c82e0f9deb2f4acc140e0f}
       \strng{authorfullhash}{f88f4792f3c82e0f9deb2f4acc140e0f}
+      \strng{authorfullhashraw}{f88f4792f3c82e0f9deb2f4acc140e0f}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -73,7 +77,7 @@
       \verb https://link.springer.com/chapter/10.1007/978-3-658-42987-4_6
       \endverb
     \endentry
-    \entry{Beckhoff}{online}{}
+    \entry{Beckhoff}{online}{}{}
       \name{author}{1}{}{%
         {{hash=ca23996f453ac6ad08eed4c4b53e2d71}{%
            family={{Beckhoff Automation GmbH \& Co. KG}},
@@ -81,10 +85,12 @@
       }
       \strng{namehash}{ca23996f453ac6ad08eed4c4b53e2d71}
       \strng{fullhash}{ca23996f453ac6ad08eed4c4b53e2d71}
+      \strng{fullhashraw}{ca23996f453ac6ad08eed4c4b53e2d71}
       \strng{bibnamehash}{ca23996f453ac6ad08eed4c4b53e2d71}
       \strng{authorbibnamehash}{ca23996f453ac6ad08eed4c4b53e2d71}
       \strng{authornamehash}{ca23996f453ac6ad08eed4c4b53e2d71}
       \strng{authorfullhash}{ca23996f453ac6ad08eed4c4b53e2d71}
+      \strng{authorfullhashraw}{ca23996f453ac6ad08eed4c4b53e2d71}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
@@ -99,7 +105,7 @@
       \verb https://download.beckhoff.com/download/document/automation/twincat3/TwinCAT_3_Grundlagen_DE.pdf
       \endverb
     \endentry
-    \entry{Anwendung_IEC61131}{online}{}
+    \entry{Anwendung_IEC61131}{online}{}{}
       \name{author}{2}{}{%
         {{hash=4acbf97f40c913743a6508cc713b7ec5}{%
            family={John},
@@ -114,10 +120,12 @@
       }
       \strng{namehash}{a397029465598529421228f299842f88}
       \strng{fullhash}{a397029465598529421228f299842f88}
+      \strng{fullhashraw}{a397029465598529421228f299842f88}
       \strng{bibnamehash}{a397029465598529421228f299842f88}
       \strng{authorbibnamehash}{a397029465598529421228f299842f88}
       \strng{authornamehash}{a397029465598529421228f299842f88}
       \strng{authorfullhash}{a397029465598529421228f299842f88}
+      \strng{authorfullhashraw}{a397029465598529421228f299842f88}
       \field{sortinit}{J}
       \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{labelnamesource}{author}
@@ -132,7 +140,7 @@
       \verb https://beckassets.blob.core.windows.net/product/readingsample/684471/9783642120145_excerpt_001.pdf
       \endverb
     \endentry
-    \entry{OPCFoundation}{online}{}
+    \entry{OPCFoundation}{online}{}{}
       \name{author}{1}{}{%
         {{hash=9d864dea1569426ce9a70e908ac80907}{%
            family={{OPC Foundation}},
@@ -140,10 +148,12 @@
       }
       \strng{namehash}{9d864dea1569426ce9a70e908ac80907}
       \strng{fullhash}{9d864dea1569426ce9a70e908ac80907}
+      \strng{fullhashraw}{9d864dea1569426ce9a70e908ac80907}
       \strng{bibnamehash}{9d864dea1569426ce9a70e908ac80907}
       \strng{authorbibnamehash}{9d864dea1569426ce9a70e908ac80907}
       \strng{authornamehash}{9d864dea1569426ce9a70e908ac80907}
       \strng{authorfullhash}{9d864dea1569426ce9a70e908ac80907}
+      \strng{authorfullhashraw}{9d864dea1569426ce9a70e908ac80907}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
@@ -158,7 +168,7 @@
       \verb https://opcfoundation.org/wp-content/uploads/2023/05/OPC-UA-Interoperability-For-Industrie4-and-IoT-EN.pdf
       \endverb
     \endentry
-    \entry{OPC_IEC61131}{online}{}
+    \entry{OPC_IEC61131}{online}{}{}
       \name{author}{2}{}{%
         {{hash=9d864dea1569426ce9a70e908ac80907}{%
            family={{OPC Foundation}},
@@ -169,10 +179,12 @@
       }
       \strng{namehash}{9930ca231e9325fa82142f5c56483b9c}
       \strng{fullhash}{9930ca231e9325fa82142f5c56483b9c}
+      \strng{fullhashraw}{9930ca231e9325fa82142f5c56483b9c}
       \strng{bibnamehash}{9930ca231e9325fa82142f5c56483b9c}
       \strng{authorbibnamehash}{9930ca231e9325fa82142f5c56483b9c}
       \strng{authornamehash}{9930ca231e9325fa82142f5c56483b9c}
       \strng{authorfullhash}{9930ca231e9325fa82142f5c56483b9c}
+      \strng{authorfullhashraw}{9930ca231e9325fa82142f5c56483b9c}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}

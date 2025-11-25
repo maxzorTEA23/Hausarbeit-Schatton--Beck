@@ -27,4 +27,6 @@
 \contentsline {subsection}{\numberline {9.4}Gesamtbewertung}{16}{subsection.9.4}%
 \contentsline {section}{\numberline {10}Fazit}{17}{section.10}%
 \contentsline {section}{\numberline {11}Ausblick}{17}{section.11}%
+\contentsline {section}{\numberline {12}Anhang}{19}{section.12}%
+\contentsline {section}{\nonumberline A Anmerkung zur Nutzung von Künstlicher Intelligenz}{19}{section*.11}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

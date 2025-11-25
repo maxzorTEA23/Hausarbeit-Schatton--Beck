@@ -1,0 +1,28 @@
+\glsdefs@newdocentry{acr:KI}%
+{%
+name={\acronymfont {\glsentryshort {acr:KI}}},%
+sort={KI},%
+type={acronym},%
+first={KI},%
+firstplural={KIs},%
+text={KI},%
+plural={KIs},%
+description={Künstliche Intelligenz},%
+descriptionplural={Künstliche Intelligenz},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Künstliche Intelligenz},%
+longplural={Künstliche Intelligenzs},%
+short={KI},%
+shortplural={KIs},%
+counter={page},%
+parent={},%
+%
+}%
+

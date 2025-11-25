@@ -1,4 +1,5 @@
 \documentclass[a4paper,12pt]{scrartcl}
+\usepackage[acronym]{glossaries}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage[a4paper,left = 2.5cm, right = 2.5cm,bottom=2.5cm, top=2.5cm]{geometry}
@@ -11,6 +12,8 @@
 \usepackage{enumitem}
 \usepackage{listings}
 \usepackage{microtype} % hübschere Umbrüche
+\usepackage{array}
+\usepackage{tabularx}
 \lstset{
 	basicstyle=\ttfamily\small,
 	breaklines=true,
@@ -26,7 +29,14 @@
 \usepackage{wrapfig}
 \usepackage{hyperref}
 \usepackage{ifthen}
+\usepackage{floatrow}   % stellt \captionabove bereit
 
+% Abkürzungen wie \acrshort
+
+
+% Für \index
+\usepackage{makeidx}
+\makeindex
 \usepackage[backend=biber,style=numeric,sorting=nyt]{biblatex}
 \DeclareNameAlias{default}{family-given}
 \addbibresource{Literatur.bib}
@@ -76,6 +86,7 @@
 %\counterwithin{table}{section}
 %Kapitel + Abschnitt in Markierungen übernehmen
 \begin{document}
+	
 	\pagenumbering{gobble}
 	\begin{titlepage}
 		\enlargethispage{4.0cm}
@@ -109,8 +120,8 @@
 \begin{flushleft}
 	{\fontsize{12pt}{14pt}\selectfont
 		\begin{tabular}{ll}
-			Abgabedatum:                  & \quad  \\
-			Bearbeitungszeitraum:         & \quad 16.10.2025 -    \\ 
+			Abgabedatum:                  & \quad 26.11.2025 \\
+			Bearbeitungszeitraum:         & \quad 16.10.2025 - 26.11.2025  \\ 
 			Matrikelnummer:               & \quad 3960407/5732737 \\ 
 			Kurs:                         & \quad TEA 23 \\
 			% entfällt bei Studienarbeit
@@ -151,6 +162,8 @@
 	\input{Kapitel/Innovationsgrad.tex}
 	\input{Kapitel/Fazit.tex}
 	\input{Kapitel/Ausblick.tex}
+	\clearpage
+	\input{Kapitel/KI}
 	\newpage
 	\printbibliography
 	\end{document}
