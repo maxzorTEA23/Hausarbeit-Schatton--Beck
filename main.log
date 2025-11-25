@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.1)  13 NOV 2025 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.1)  20 NOV 2025 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1474,18 +1474,45 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/
 texmf-dist/fonts/enc/dvips/base/8r.enc} <./images/DHBW_d_R_FN_46mm_4c.pdf>]
-Package tocbasic Info: character protrusion at toc deactivated on input line 13
-6.
+(./Kapitel/erklaerung.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 20.
 
-(./main.toc)
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+)
+
+[2
+
+]
+Package tocbasic Info: character protrusion at toc deactivated on input line 13
+8.
+ (./main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
 
 
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported  on input line 137.
-[2
+(babel)             Reported  on input line 139.
+[3
 
 ] (./Kapitel/Einleitung.tex) (./Kapitel/Ausgangssituation.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--1
@@ -1579,7 +1606,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
-<images/Automatisierungspyramide.png, id=99, 362.85562pt x 212.795pt>
+<images/Automatisierungspyramide.png, id=103, 362.85562pt x 212.795pt>
 File: images/Automatisierungspyramide.png Graphic file (type png)
 <use images/Automatisierungspyramide.png>
 Package pdftex.def Info: images/Automatisierungspyramide.png  used on input lin
@@ -1631,9 +1658,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--47
 
 
 [11]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 72.
-
 Underfull \hbox (badness 10000) in paragraph at lines 76--83
 
  []
@@ -1651,7 +1675,7 @@ Overfull \hbox (1.22388pt too wide) in paragraph at lines 83--83
 
 [14]
 
-LaTeX Warning: Empty bibliography on input line 151.
+LaTeX Warning: Empty bibliography on input line 153.
 
 (./main.aux)
  ***********
@@ -1674,11 +1698,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 51487 strings out of 473190
- 1160478 string characters out of 5719980
- 2255197 words of memory out of 5000000
- 73676 multiletter control sequences out of 15000+600000
- 628966 words of font info for 278 fonts, out of 8000000 for 9000
+ 51500 strings out of 473190
+ 1160741 string characters out of 5719980
+ 2256197 words of memory out of 5000000
+ 73685 multiletter control sequences out of 15000+600000
+ 627167 words of font info for 277 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,10918b,2379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/tex
@@ -1687,10 +1711,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist
 /fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/ur
 w/helvetic/uhvr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/helvetic/uhvr
 o8a.pfb>
-Output written on main.pdf (16 pages, 218066 bytes).
+Output written on main.pdf (17 pages, 219343 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 197 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 94399 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 200 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 92351 words of extra memory for PDF output out of 106986 (max. 10000000)
 
